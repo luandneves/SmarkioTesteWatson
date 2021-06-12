@@ -35,6 +35,5 @@
     "cors": "^2.8.5",
     "nodemon": "^2.0.7",
     "sequelize-cli": "^6.2.0"
-  },
-  "dev:start": "./node_modules/nodemon/bin/nodemon index.js"
+  }
 }
