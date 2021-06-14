@@ -1,6 +1,6 @@
 const {Comments} = require('../models')
 const express = require('express')
-const watson = require('../watson')
+const watson = require('../../watson')
 const Helpers = require('../helpers/Helpers')
 
 module.exports = {
@@ -30,8 +30,8 @@ module.exports = {
         try {
             comments = await Comments.create({
                 text: text,
-                upload_file: textToSpeech.fileName,
-                upload_dir: textToSpeech.fileDir
+                upload_file: speechText.fileName,
+                upload_dir: speechText.fileDir
             })
         } catch (error) {
             console.log(error)

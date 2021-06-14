@@ -14,7 +14,7 @@ class AppController {
     }
 
     routes() {
-        this.express.use(require("../back-end/routes"))
+        this.express.use(require("./back-end/routes"))
         this.express.use('/audio', express.static(__dirname + "/audio"))
         this.express.use('/',express.static(__dirname + "/views"))
     }
