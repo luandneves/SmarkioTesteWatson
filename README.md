@@ -1,4 +1,4 @@
-# Smarkio-WatsonIBM
+# Smarkio Teste Watson
 Teste prático para desenvolvedor
 
 ## Tecnologias
@@ -14,7 +14,7 @@ Teste prático para desenvolvedor
 1. Clone o repositório.
 
 ```
-git clone https://github.com/GravetoGeek/Smarkio-WatsonIBM.git
+git clone https://github.com/luandneves/SmarkioTesteWatson.git
 ```
 
 2. Instale as dependências.
@@ -45,5 +45,5 @@ TTS_URL=url
 5. Acesse o terminal no diretório /Smarkio-WatsonIBM e execute o comando:
 
 ```
-nodemon index.js
+node .
 ```
